@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ---- Negativ szamok helyettesitese ----
+
 void replace_negative_numbers(int* arr, int size);
 
 int main() {

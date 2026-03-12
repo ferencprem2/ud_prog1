@@ -5,7 +5,6 @@
 short is_array_sorted(int* arr);
 
 int main() {
-    // printf(is_array_sorted((int[]){1, 10, 3, 4, 5}) ? "Rendezett\n" : "Rendezetlen\n");
     printf(is_array_sorted((int[]){1, 2, -500, 4, 5}) ? "Rendezett\n" : "Rendezetlen\n");
     return 0;
 }

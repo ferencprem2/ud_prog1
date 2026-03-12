@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// ---- Szomszédos elemek távolságának összege ----
+
 int neighboring_distance_sum(int* arr, int size);
 
 int main() {

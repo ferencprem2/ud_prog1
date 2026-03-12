@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ---- Tartalmazza-e a tömb az adott értéket? ----
+
 short contains(int* arr, int size, int value);
 
 int main() {

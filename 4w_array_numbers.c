@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ---- Tömb elemeinek kiírása ----
+
 void print_array(int* arr, int size);
 
 int main() {

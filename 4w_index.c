@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ---- Adott érték indexe a tömbben ----
+
 int index_of(int* arr, int size, int value);
 
 int main() {
