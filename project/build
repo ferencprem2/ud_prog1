@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+CC="${CC:-gcc}"
+CFLAGS="-O2 -Wall -Wextra -std=c99"
+SRC="base.c"
+TARGET="alap"
+
+"$CC" $CFLAGS "$SRC" -o "$TARGET"
+echo "Built $TARGET"
